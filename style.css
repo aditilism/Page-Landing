@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('images/forest_background.jpg') no-repeat center center fixed; /* Background image */
+  background-size: cover; /* Make the background image cover the whole page */
+}
+
+.nav {
+  background-color: rgba(34, 139, 34, 0.8); /* Slightly transparent green */
+  color: white;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1em;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  color: white;
+  text-align: center;
+  padding: 5em 1em;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+}
+
+.hero h2 {
+  font-size: 3em;
+  margin: 0.5em 0;
+}
+
+.content-section {
+  padding: 2em 1em;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+  margin: 1em 0;
+}
+
+.tree-card {
+  display: inline-block;
+  width: 30%;
+  margin: 1em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  background: white;
+}
+
+.tree-card img {
+  width: 100%;
+  height: auto;
+}
+
+.tree-card h3 {
+  margin: 0.5em 0;
+}
+
+.tree-card p {
+  padding: 0 1em 1em;
+}
+
+footer {
+  background-color: rgba(34, 139, 34, 0.8); /* Slightly transparent green */
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+.footer-content {
+  margin-bottom: 1em;
+}
+
+.social-media a {
+  margin: 0 0.5em;
+}
+
+.social-media img {
+  width: 24px;
+  height: 24px;
+}
